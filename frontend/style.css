@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /* END OF CSS RESET */
+
+   /* body {
+      position: relative;
+      justify-content: center;
+      min-height: 100vh;
+      align-items: center; 
+    }  */
+    
+    section {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        max-width: 1200px;
+      /*position: center;
+      left: 50%;
+      transform: translateX(-50%);*/
+  } 
+
+    .first {
+        /*position: relative;*/
+        background-color: #efd592;
+    }
+
+        #button1 {
+            /*position: absolute;
+            display: block;
+            align-items: center;*/
+            height: 200px;
+            background-color: #242d38;
+            text-align: center;
+            font-size: 24px;
+            letter-spacing: 0.2em;
+            color: #efd592;
+            font-family: 'Poppins', sans-serif;
+            font-weight: light;
+            text-transform: uppercase;
+        }
+
+    .second {
+        /*position: relative;*/
+        background-color: #4343f9;
+    }
+
+        #button2 {
+            position: absolute;
+            display: block;
+            align-items: center;
+            bottom: 40px;
+            left: 50%;
+            width: 200px;
+            height: 60px;
+            margin: 10px;
+            transform: translateX(-50%);
+            color: #242d38;
+            font-family: 'Poppins', sans-serif;
+            border: 6px #242d38;
+            font-size: 21px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        #button3 {
+            position: absolute;
+            display: block;
+            padding-bottom: 40px;
+            left: 50%;
+            width: 200px;
+            height: 60px;
+            transform: translateX(-50%);
+            background-color: #4343f9;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 10px 0 20px black;
+            font-size: 21px;
+            color: #ffffff;
+            font-weight: normal;
+        }
